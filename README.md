@@ -4,7 +4,7 @@
 In memory tracker of a current state for a given currency based on an incoming payments. Each minute, current status of currencies is print to stdout. USD exchange rate is also printed if the given currency has exchange rate specified in exchange-rates.properties.
 
 ## Instalation
-Run `mvn clean package` to produce `payment-tracker-1.0-SNAPSHOT.jar` file. This file behaves like classic CLI application
+Run `mvn clean package` to produce `payment-tracker-1.0-SNAPSHOT-jar-with-dependencies.jar` file. This file behaves like classic CLI application
 
 ## Running
 Resulting jar can be run as `java -jar payment-tracker-1.0-SNAPSHOT-jar-with-dependencies.jar`. Several options are available upon start:
