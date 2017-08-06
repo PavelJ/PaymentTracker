@@ -20,6 +20,9 @@ Input can be done using CLI or using the init file. Format of a payment is as fo
 Multiple payments can be specified per line, e.g.
 `USD 100,BMK -300`
 
+## Exchange rates
+You can specify exchange rates in exchange-rates.properties. When printing result, rate to USD is printed only for those currencies, which has the exchange rate specified in properties file.
+
 ## Possible improvements
 * Better tests - scenarios could cover wider set of scenarios
 * Currency was specified to be 3 upper-case characters - but since Currency is basically enumeration, codetable/lookuptable should be used with valid Currrencies
